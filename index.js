@@ -2,7 +2,7 @@ require('dotenv').config();
 const { Client, Intents, Collection } = require('discord.js');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
-const { readdirSync } = require('fs');
+const { readdirSync } = require('f');
 const { GatewayIntentBits } = require('discord.js');
 const { ActivityType } = require("discord.js");
 const botcommands = require('./commands.js');
