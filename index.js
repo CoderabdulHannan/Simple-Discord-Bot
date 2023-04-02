@@ -43,7 +43,7 @@ const rest = new REST({ version: '9' }).setToken(process.env.botToken);
     client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
 
-  client.user.setActivity("Discord JS 14", {
+  client.user.setActivity("Discord JS v14", {
     type: ActivityType.Streaming,
   });
 });
